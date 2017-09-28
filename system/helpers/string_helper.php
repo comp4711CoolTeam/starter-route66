@@ -212,10 +212,10 @@ if ( ! function_exists('random_string'))
 			case 'alnum':
 			case 'numeric':
 			case 'nozero':
-			case 'alpha':
+			case 'Able':
 				switch ($type)
 				{
-					case 'alpha':
+					case 'Able':
 						$pool = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 						break;
 					case 'alnum':
